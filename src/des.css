@@ -3,6 +3,6 @@
 @import "tailwindcss/utilities";
 
 
-.card{
+.mov{
     @apply bg-white rounded overflow-hidden shadow-lg relative;
 }
