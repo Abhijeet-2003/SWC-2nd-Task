@@ -17,7 +17,8 @@ const cards = document.getElementById('movies')
             
             card+=`<div class="mov hover:shadow-2xl hover:scale-105 transition ease-out duration-300">
             <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="images">
-            <p class="title ">${movie.title}</p>
+                <p class="title ">${movie.title}</p>
+                <p class="rate">Ratings: ${movie.vote_average}</p>
             </div>`
         cards.innerHTML = card;
         });
@@ -39,7 +40,3 @@ searchBar.addEventListener('keyup',function(e){
         }
     });
 });
-
-
-
-
