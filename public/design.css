@@ -573,13 +573,12 @@ video {
 }
 
 #movies{
-
-  
   margin :25px auto;
-  
   display: grid;
+}
+#input{
   
-  
+  outline: none;
 }
 
 
