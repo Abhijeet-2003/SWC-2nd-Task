@@ -559,7 +559,7 @@ video {
 }
 
 .mov {
-  border: 2px solid black;
+  border: 1px solid black;
   height: 340px;
   width: 300px; 
   position: relative;
