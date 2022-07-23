@@ -32,11 +32,6 @@ searchBar.addEventListener('keyup',function(e){
         const title=name.querySelector('div > p').textContent;
         if(title.toLowerCase().includes(term))
         {
-            // card+=`<div class="mov hover:shadow-2xl hover:scale-105 transition ease-out duration-300">
-            // <img src="${name.firstElementChild.getAttribute("src")}" class="images">
-            // <p class="title ">${title}</p>
-            // </div>`
-            // cards.innerHTML=card;
             name.style.display='block';
         }
         else{
